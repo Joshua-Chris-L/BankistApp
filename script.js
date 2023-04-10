@@ -212,7 +212,7 @@ btnSort.addEventListener('click', function(e){
 })
 
 
-
+console.log('clicked')
 // const dogAge = [5,2,4,1,15,8,3]
 
 // const averageHumanAges = function(dogAge){
@@ -256,3 +256,12 @@ const firstWithdrawal = account1.movements.find(mov => mov < 0);
 //console.log(firstWithdrawal)
 
 /////////////////////////////////////////////////
+
+// More Array Method
+const y = Array.from({length: 7}, () => 1);
+console.log(y)
+
+const z = Array.from({ lenth: 7}, (_, i) => i + 1);
+console.log(z)
+
+const movementsUI = Array.from(document.)
