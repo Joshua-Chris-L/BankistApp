@@ -365,17 +365,3 @@ slider();
 //       console.log(entry)
 //     })
 // }
-
-// const obsOptions = {
-//   root: null,
-//   threshold: [0, 0.2],
-// }
-
-// const observer = new IntersectionObserver
-// (obsCallback, obsOptions);
-// observer.observe(section1)
-
-// const slider = document.querySelector('.slider');
-
-// slider.style.transform = 'scale(0.4) translateX(-800px)';
-// slider.style.overflow = 'visible';
